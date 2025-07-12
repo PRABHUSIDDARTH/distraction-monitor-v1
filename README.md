@@ -76,9 +76,9 @@ you can get it in the assets
 
 Model was trained on custom screenshots labeled as short, reel, and non_short.
 
-🧾 License
-This project is licensed under the MIT License.
-You may use, modify, and distribute freely.
+## ⚖️ License
+
+This project is licensed under the [MIT License](LICENSE).
 
 🙌 Credits
 Built by Prabhu Siddarth during internship phase.
