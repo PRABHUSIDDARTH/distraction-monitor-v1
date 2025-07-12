@@ -1,0 +1,17 @@
+distraction-monitor-v1/
+├── backend/
+│ ├── app.py ← Flask app
+│ ├── requirements.txt ← Python dependencies
+│
+├── frontend/
+│ ├── index.html ← Main webpage
+│ ├── style.css ← UI styling
+│ ├── script.js ← JS logic for frontend
+│
+├── model/
+│ └── distraction_meter_model.keras ← (You must place this manually)
+│
+├── README.md ← Project documentation
+├── file_structure.txt ← This structure guide
+
+
