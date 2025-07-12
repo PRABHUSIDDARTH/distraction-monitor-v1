@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Distraction Monitor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Distraction Monitor</h1>
+
+    <!-- 🎯 Threshold Input -->
+    <form id="thresholdForm">
+      <label for="range">Set Threshold (25 to 50):</label>
+      <input type="number" id="range" min="25" max="50" required />
+      <button type="submit">Set Threshold</button>
+    </form>
+
+    <!-- 🔘 Control Buttons -->
+    <div class="controls">
+      <button id="startBtn" type="button">Start Monitoring</button>
+      <button id="resetBtn" type="button">Reset</button>
+      <button id="stopBtn" type="button">Stop Monitoring</button>
+    </div>
+
+    <!-- 📊 Monitoring Status -->
+    <div class="status">
+      <p><strong>Status:</strong> <span id="statusText">Idle</span></p>
+      <p>🎬 Shorts/Reels Viewed: <span id="shortsCount">0</span></p>
+      <p>🕒 Last Checked: <span id="lastChecked">Never</span></p>
+    </div>
+
+    <!-- ⏱️ Interval Slider -->
+    <div class="interval-controls">
+      <label for="intervalSlider">Set Interval (seconds):</label>
+      <input type="range" id="intervalSlider" min="1" max="30" value="5" />
+      <span id="intervalValue">5s</span>
+      <button id="setIntervalBtn" type="button">Update Interval</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
