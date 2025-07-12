@@ -76,6 +76,8 @@ you can get it in the assets
 
 Model was trained on custom screenshots labeled as short, reel, and non_short.
 
+This model is not trained for split views of reels or shorts those updates will be given soon
+
 ## ⚖️ License
 
 This project is licensed under the [MIT License](LICENSE).
